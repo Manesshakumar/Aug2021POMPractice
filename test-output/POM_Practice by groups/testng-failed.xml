@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [POM_Practice by groups]" guice-stage="DEVELOPMENT">
+  <test thread-count="5" name="GRP-Smoke(failed)">
+    <groups>
+      <run>
+        <include name="Smoke"/>
+      </run>
+    </groups>
+    <classes>
+      <class name="com.qa.Test.ProductComparisionPageTest">
+        <methods>
+          <include name="doProductCompareGetDataTest"/>
+        </methods>
+      </class> <!-- com.qa.Test.ProductComparisionPageTest -->
+    </classes>
+  </test> <!-- GRP-Smoke(failed) -->
+</suite> <!-- Failed suite [POM_Practice by groups] -->

@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+
+<suite name="DemoCart Test automtion practise regression suite"
+	thread-count="3" parallel="tests" verbose="3">
+	
+	<listeners>
+		<listener
+			class-name="com.qa.TestListener.ExtentReportListener" />
+			</listeners>
+
+	<test name="Login page Test">
+		<classes>
+			<class name="com.qa.Test.LoginPageTest" />
+		</classes>
+	</test>
+
+	<test name="Component page Test">
+		<classes>
+			<class name="com.qa.Test.ComponentPageTest" />
+		</classes>
+	</test>
+
+	<test name="ProductInfoPageTest page Test">
+		<classes>
+			<class name="com.qa.Test.ProductInfoPageTest" />
+		</classes>
+	</test>
+
+	<test name="HomdPageTest page Test">
+		<classes>
+			<class name="com.qa.Test.HomdPageTest" />
+		</classes>
+	</test>
+	
+	<test name="DesktopComponentSelectionPageTest page Test">
+		<classes>
+			<class name="com.qa.Test.DesktopComponentSelectionPageTest" />
+		</classes>
+	</test>
+	
+	<test name="ProductComparisionPageTest page Test">
+		<classes>
+			<class name="com.qa.Test.ProductComparisionPageTest" />
+		</classes>
+	</test>
+</suite>

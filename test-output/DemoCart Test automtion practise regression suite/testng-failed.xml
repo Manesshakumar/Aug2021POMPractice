@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite thread-count="3" parallel="tests" name="Failed suite [DemoCart Test automtion practise regression suite]" guice-stage="DEVELOPMENT" verbose="3">
+  <test thread-count="3" parallel="tests" name="HomdPageTest page Test(failed)" verbose="3">
+    <classes>
+      <class name="com.qa.Test.HomdPageTest">
+        <methods>
+          <include name="getproductTest"/>
+          <include name="tearDown"/>
+          <include name="setUp"/>
+          <include name="doProductContainerSizeTest"/>
+          <include name="desktopProductSelectionTest"/>
+          <include name="doLogin"/>
+        </methods>
+      </class> <!-- com.qa.Test.HomdPageTest -->
+    </classes>
+  </test> <!-- HomdPageTest page Test(failed) -->
+  <test thread-count="3" parallel="tests" name="ProductInfoPageTest page Test(failed)" verbose="3">
+    <classes>
+      <class name="com.qa.Test.ProductInfoPageTest">
+        <methods>
+          <include name="doHomePageClick"/>
+          <include name="tearDown"/>
+          <include name="setUp"/>
+          <include name="doProductaddToCartClickTest"/>
+          <include name="doLogin"/>
+          <include name="getproductTest"/>
+        </methods>
+      </class> <!-- com.qa.Test.ProductInfoPageTest -->
+    </classes>
+  </test> <!-- ProductInfoPageTest page Test(failed) -->
+</suite> <!-- Failed suite [DemoCart Test automtion practise regression suite] -->
